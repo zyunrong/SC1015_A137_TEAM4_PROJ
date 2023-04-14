@@ -4,17 +4,15 @@
 
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on the breast cancer dataset from [Kaggle](https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset). For detailed walkthrough, please view the source code in order from:
 
-1. [Data Extraction](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
-2. [Data Visualization](https://github.com/nicklimmm/movie-analysis/blob/main/data-visualization.ipynb)
-3. [Data Resampling and Splitting](https://github.com/nicklimmm/movie-analysis/blob/main/data-resampling-and-splitting.ipynb)
-4. [Logistic Regression](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
-5. [Neural Network](https://github.com/nicklimmm/movie-analysis/blob/main/neural-network.ipynb)
-  
+1. [Data Extraction](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Data%20Extraction.ipynb)
+2. [Data Visualization](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Data%20Visualization.ipynb)
+3. [Machine Learning Models](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Machine%20Learning.ipynb)
+
 ## Contributors
 
-- Zhang Yun Rong 
-- Tan Guan Ying Xavier
 - Karl Maersk Mc-Kinney Soerensen 
+- Tan Guan Ying Xavier
+- Zhang Yun Rong
 
   All been equally involved in each aspect of the project.
 
@@ -31,19 +29,17 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Conclusion
 
-- Popularity and budget have low linear correlation value with ratings (watch out for bandwagons 🤣)
-- Popularity of the casts and crews have higher linear correlation value with ratings
-- Resampling imbalanced data improved model performance especially on the minority class
-- Logistic Regression did not perform well with non-linearly correlated variables
-- Neural Networks along with SMOTEENN resampling method consistently did well in predicting good movies after 100 training attempts (around 72% accuracy, 70% recall)
-- Yes, it is possible to predict if a movie is good with acceptable amount of accuracy and recall
+- We identified 6 variables with the highest correlation to diagnosis, being Radius_Mean, Perimeter_Mean, Area_Mean, Compactness_Mean, Concavity_Mean and Concave Points_Mean
+- Logistic Regression Model has high accuracy(93%) but a low TPR(85%)
+- Decision Tree has a high accuracy as well(92%)
+- Random Forest Classifier has the highest accuracy(96%) and a high TPR(92%)
+- Random Forest Classifier is the best model to predict if breast cancer tumors are malignant or benign
+- Yes, it is possible to predict if a tumor if malignant or benign with acceptable amount of accuracy and low wrong diagnosis rate(1-TPR and FPR)
 
 ## What did we learn from this project?
-
-- Handling imbalanced datasets using resampling methods and imblearn package
-- Neural Networks, Keras and Tensorflow
+- The use of random state in data splitting
 - Logistic Regression from sklearn
-- API Usage
+- Random Forest Classification from sklearn
 - Other packages such as tqdm, json, requests
-- Collaborating using GitHub
-- Concepts about Precision, Recall, and F1 Score
+- Learning how to use github
+- Classification report using precision, recall, f1-score and support
