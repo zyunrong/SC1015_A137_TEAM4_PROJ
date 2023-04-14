@@ -15,6 +15,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Zhang Yun Rong 
 - Tan Guan Ying Xavier
 - Karl Maersk Mc-Kinney Soerensen 
+
   All been equally involved in each aspect of the project.
 
 ## Problem Definition
