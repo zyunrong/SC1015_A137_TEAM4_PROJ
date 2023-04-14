@@ -6,7 +6,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 1. [Data Extraction](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Data%20Extraction.ipynb)
 2. [Data Visualization](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Data%20Visualization.ipynb)
-3. [Machine Learning Models](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Machine%20Learning.ipynb)
+3. [Machine Learning Models](https://github.com/zyunrong/SC1015_A137_TEAM5_PROJ/blob/main/Machine%20Learning%20Models.ipynb)
 
 ## Contributors
 
@@ -38,8 +38,15 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## What did we learn from this project?
 - The use of random state in data splitting
+- Use of pairplot to identify and extract variables with high correlation
 - Logistic Regression from sklearn
 - Random Forest Classification from sklearn
-- Other packages such as tqdm, json, requests
 - Learning how to use github
 - Classification report using precision, recall, f1-score and support
+
+## References
+
+- <https://www.kaggle.com/code/fareselmenshawii/breast-cancer-various-models>
+- <https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset>
+- <https://www.kaggle.com/code/kanuriviveknag/breast-cancer-prediction#Thus-Breast-cancer-prediction-using-RandomforestClassifier-,obtained-the-accuracy-of-96%>
+- <https://towardsdatascience.com/breast-cancer-cell-type-classifier-ace4e82f9a79>
