@@ -50,3 +50,5 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - <https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset>
 - <https://www.kaggle.com/code/kanuriviveknag/breast-cancer-prediction#Thus-Breast-cancer-prediction-using-RandomforestClassifier-,obtained-the-accuracy-of-96%>
 - <https://towardsdatascience.com/breast-cancer-cell-type-classifier-ace4e82f9a79>
+- <https://openai.com/>
+- <https://bedford-computing.co.uk/learning/wp-content/uploads/2015/10/Python-for-Data-Analysis.pdf>
